@@ -23,7 +23,7 @@ void main() {
         testConversation = ChatwootConversation.fromJson(
             await TestResourceUtil.readJsonResource(fileName: "conversation"));
 
-        final hiveTestPath = Directory.current.path + '/test/hive_testing_path';
+        final hiveTestPath = Directory.current.path + '/test/hive_testing_path_conversation';
         Hive
           ..init(hiveTestPath)
           ..registerAdapter(ChatwootConversationAdapter())

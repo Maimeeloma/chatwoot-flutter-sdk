@@ -38,3 +38,15 @@
 
 - Fixed message sending issues
 - Adds development docs
+
+## [0.0.10] - Mar 27,2026
+
+- Update `dio` to `^5.8.0+1`
+- Update `intl` to `^0.20.2`
+- Run code generation for Hive adapters and JsonSerializable
+
+## [0.0.11] - Mar 27,2026
+
+- Update `riverpod` to `^3.2.1`
+- Update `flutter_secure_storage` to `^10.0.0`
+- Run code generation for Hive adapters and JsonSerializable

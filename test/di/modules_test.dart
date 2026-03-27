@@ -27,7 +27,7 @@ void main() {
 
     setUpAll(() async {
       providerContainer = ProviderContainer();
-      final hiveTestPath = Directory.current.path + '/test/hive_testing_path';
+      final hiveTestPath = Directory.current.path + '/test/hive_testing_path_modules';
       Hive
         ..init(hiveTestPath)
         ..registerAdapter(ChatwootContactAdapter())

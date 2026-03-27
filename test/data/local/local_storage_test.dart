@@ -36,7 +36,7 @@ void main() {
     late final LocalStorage localStorage;
 
     setUpAll(() {
-      final hiveTestPath = Directory.current.path + '/test/hive_testing_path';
+      final hiveTestPath = Directory.current.path + '/test/hive_testing_path_local_storage';
 
       Hive
         ..init(hiveTestPath)

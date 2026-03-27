@@ -20,7 +20,7 @@ void main() {
       return Future(() async {
         testContact = ChatwootContact.fromJson(
             await TestResourceUtil.readJsonResource(fileName: "contact"));
-        final hiveTestPath = Directory.current.path + '/test/hive_testing_path';
+        final hiveTestPath = Directory.current.path + '/test/hive_testing_path_contact';
         Hive
           ..init(hiveTestPath)
           ..registerAdapter(ChatwootContactAdapter());

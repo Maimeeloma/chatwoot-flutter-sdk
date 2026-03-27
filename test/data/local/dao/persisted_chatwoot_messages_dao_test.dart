@@ -19,7 +19,7 @@ void main() {
 
     setUpAll(() {
       return Future(() async {
-        final hiveTestPath = Directory.current.path + '/test/hive_testing_path';
+        final hiveTestPath = Directory.current.path + '/test/hive_testing_path_messages';
         Hive
           ..init(hiveTestPath)
           ..registerAdapter(ChatwootMessageAdapter())
